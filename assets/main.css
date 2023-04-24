@@ -64,6 +64,22 @@
             width: 150px;
         }
 
+        /*Hero*/
+
+        .ir-boton {
+            border: none;
+            border-radius: 5px;
+        }
+
+        .ir-boton.--oscuro {
+            background-color: var(--verde-oscuro);
+            color: var(--color-principal);
+        }
+
+        /*Nosotros*/
+
+      
+
         /*Nuestros servicios*/
 
 		.ir-card {
