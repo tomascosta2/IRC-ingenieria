@@ -19,7 +19,7 @@
             height: 85px;
             padding: 16px;
             border-radius: 5px;
-            width: 80%;
+            max-width: 80%;
             margin: 0 auto;
         }
 
@@ -78,7 +78,21 @@
 
         /*Nosotros*/
 
-      
+       /*Banner*/
+        .ir-banner{
+            background-color: var(--verde-oscuro);
+            border-radius: 5px;
+        }
+
+       .ir-texto.--importante{
+        color: var(--color-principal);
+        font-size: 22px;
+       }
+       .ir-boton.--claro{
+        background-color: var(--verde-intermedio);
+        color: var(--verde-oscuro);
+        font-size: 16px;
+       }
 
         /*Nuestros servicios*/
 
