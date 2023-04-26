@@ -14,34 +14,41 @@
         .ir-header {
             background-color: var(--verde-oscuro);
             display: flex;
-            justify-content: flex-end;
             align-items: center;
-            height: 85px;
+            height: 70px;
             padding: 16px;
             border-radius: 5px;
             max-width: 80%;
             margin: 0 auto;
+            margin-top: 40px;
+            justify-content: space-between;
         }
-
-        .ir-header p {
-            cursor: default;
-            margin-right: auto;
-            padding-top: 16px;
-            font-size: 20px;
+        nav{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .ir-header-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        .ir-header a {
+            cursor:pointer;
+            text-decoration: none;
+        }
+        .ir-header a:hover {
+            color: var(--verde);
         }
 
         .ir-header .ir-nav-links {
             list-style-type: none;
-            padding: 8px 12px 0 0;
+            padding: 0;
+            margin: 0;
         }
 
         .ir-header .ir-nav-links li { 
             display: inline-block;
             padding: 0 20px;
-        }
-
-        .ir-header .ir-nav-links li:hover {
-            transform: scale(1.2);
         }
 
         .ir-header .ir-nav-links li a:hover {
@@ -53,7 +60,7 @@
             text-decoration: none;
         }
 
-        .ir-header .ir-boton button{
+        .ir-header .ir-boton button {
             color: var(--verde-oscuro);
             padding: 8px 16px;
             background-color:var(--verde-intermedio) ;
@@ -62,6 +69,7 @@
             cursor: pointer;
             height: 45px;
             width: 150px;
+            font-weight: 600;
         }
 
         /*Hero*/
@@ -79,12 +87,12 @@
         /*Nosotros*/
 
        /*Banner*/
-        .ir-banner{
+        .ir-banner {
             background-color: var(--verde-oscuro);
             border-radius: 5px;
         }
 
-       .ir-texto.--importante{
+       .ir-texto.--importante {
         color: var(--color-principal);
         font-size: 22px;
        }
