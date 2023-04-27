@@ -20,10 +20,10 @@
       <nav>
         <ul class="ir-nav-links">
           <li><a href="">Inicio</a></li>
-          <li><a href="">Nosotros</a></li>
-          <li><a href="">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
         </ul>
-        <a href="" class="ir-boton"><button>Contacto</button></a>
+        <a href="#contacto" class="ir-boton"><button>Contacto</button></a>
       </nav>
     </div>
 
@@ -41,7 +41,7 @@
               mejores estándares de calidad. Confía en nuestra experiencia y haz
               de tu espacio un lugar seguro. Contáctanos ahora.
             </p>
-            <a href="#"
+            <a href="#contacto"
               ><button class="ir-boton --oscuro px-5 py-2">Contacto</button></a
             >
           </div>
@@ -53,7 +53,7 @@
     </section>
 
     <section>
-      <div class="ir-nosotros container p-4">
+      <div class="ir-nosotros container p-4" id="nosotros">
         <div class="row p-4">
           <div class="col-4 p-4">
             <img src="" alt="imagen nosotros" />
@@ -94,7 +94,7 @@
             brindarte la mejor atención y servicio.
           </p>
           <div class="col-4 p-4 mt-2">
-            <a href=""
+            <a href="#contacto"
               ><button class="ir-boton --claro px-4 py-3">
                 ¡Protege a tu equipo de trabajo!
               </button></a
@@ -105,7 +105,7 @@
     </section>
 
     <section>
-      <div class="ir-servicios container p-4">
+      <div class="ir-servicios container p-4" id="servicios">
         <h2 class="h2 ir-titulo --oscuro">Nuestros servicios</h2>
         <div class="row p-4">
           <div class="col-12 col-md-4 p-2 p-md-4">
@@ -161,13 +161,38 @@
     </section>
 
     <section>
-      <div class="ir-contacto container">
-        <h5>CONTACTO</h5>
-        <div>
-          <form action="">
-            <div></div>
-            <div></div>
-          </form>
+      <div class="ir-contacto container p-4" id="contacto">
+        <div class="row p-4">
+          <div class="col-8 p-4">
+            <h5 class="h5 ir-titulo py-3">SOLICITA TU PRESUPUESTO</h5>
+            <form action="">
+              <div class="ir-form-item py-4">
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" id="nombre" placeholder="Nombre" />
+              </div>
+              <div class="ir-form-item py-4">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email@gmail.com" />
+              </div>
+              <div class="ir-form-item py-4">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" placeholder="Empresa" />
+              </div>
+              <div class="ir-form-item py-4">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  id="mensaje"
+                  cols="30"
+                  rows="10"
+                  placeholder="Tu mensaje"
+                ></textarea>
+              </div>
+            </form>
+            <button class="ir-boton">Enviar</button>
+          </div>
+          <div class="col-4">
+            <img src="" alt="imagen contacto" />
+          </div>
         </div>
       </div>
     </section>

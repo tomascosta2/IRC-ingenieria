@@ -23,7 +23,7 @@
             margin-top: 40px;
             justify-content: space-between;
         }
-        nav{
+        nav {
             display:flex;
             justify-content: space-between;
             align-items: center;
@@ -96,7 +96,7 @@
         color: var(--color-principal);
         font-size: 22px;
        }
-       .ir-boton.--claro{
+       .ir-boton.--claro {
         background-color: var(--verde-intermedio);
         color: var(--verde-oscuro);
         font-size: 16px;
@@ -130,15 +130,47 @@
 		.ir-titulo {
 			color: var(--verde-claro);
 		}
-		.ir-titulo.--oscuro{
+		.ir-titulo.--oscuro {
 			color: var(--verde-oscuro);
 		}
-		.h2.ir-titulo{
+		.h2.ir-titulo {
 			font-size: 40px;
 			text-align: center;
 		}
 		.h5.ir-titulo {
 			font-size: 22px;
 		}
-		
+
+        /*Contacto*/
+
+        .ir-contacto{
+            background-color: var(--verde-oscuro);
+            border-radius: 5px;
+        }
+        
+        .ir-form-item input{
+            display: block;
+            width: 100%;
+            background-color: var(--verde-oscuro);
+            border:none;
+            border-bottom: 1px solid var(--color-principal);
+        }
+		.ir-form-item label{
+            color: var(--verde-claro);
+            width: 100%;
+            font-size: 20px;
+        }
+        .ir-form-item input::placeholder {
+            color: #C6F2B1 ;
+        }
+        .ir-form-item textarea{
+            width: 100%;
+            height: auto;
+            background-color: var(--verde-oscuro);
+            border: none;
+            border-bottom: 2px solid var(--color-principal);
+        }
+        .ir-form-item textarea::placeholder{
+            color:#C6F2B1;
+        }
 	
