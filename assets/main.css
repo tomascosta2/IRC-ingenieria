@@ -71,7 +71,9 @@ nav {
 }
 
 /*Hero*/
-
+.ir-hero {
+    margin-top: 100px;
+}
 .ir-hero-contenido {
     margin-top: 150px;
 }
