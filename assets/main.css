@@ -22,6 +22,7 @@
             margin: 0 auto;
             margin-top: 40px;
             justify-content: space-between;
+            position: fixed;
         }
         nav {
             display:flex;
@@ -143,34 +144,36 @@
 
         /*Contacto*/
 
-        .ir-contacto{
+        .ir-contacto {
             background-color: var(--verde-oscuro);
             border-radius: 5px;
         }
         
-        .ir-form-item input{
+        .ir-contacto input {
             display: block;
             width: 100%;
             background-color: var(--verde-oscuro);
             border:none;
             border-bottom: 1px solid var(--color-principal);
         }
-		.ir-form-item label{
+		.ir-contacto label {
             color: var(--verde-claro);
             width: 100%;
             font-size: 20px;
         }
-        .ir-form-item input::placeholder {
+        .ir-contacto input::placeholder {
             color: #C6F2B1 ;
         }
-        .ir-form-item textarea{
+        .ir-contacto textarea {
             width: 100%;
             height: auto;
             background-color: var(--verde-oscuro);
             border: none;
             border-bottom: 2px solid var(--color-principal);
+            resize: none;
+            height: 150px;
         }
-        .ir-form-item textarea::placeholder{
+        .ir-contacto textarea::placeholder {
             color:#C6F2B1;
         }
 	

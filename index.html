@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/main.css" />
   </head>
   <body>
+    <div class="ir-header-wrapper"></div>
     <div class="ir-header container">
       <a class="ir-texto">IRC ingenieria</a>
       <nav>
@@ -26,6 +27,7 @@
         <a href="#contacto" class="ir-boton"><button>Contacto</button></a>
       </nav>
     </div>
+  </div>
 
     <section>
       <div class="ir-hero container p-4">
@@ -163,34 +165,29 @@
     <section>
       <div class="ir-contacto container p-4" id="contacto">
         <div class="row p-4">
-          <div class="col-8 p-4">
+          <div class="col-lg-8 p-4">
             <h5 class="h5 ir-titulo py-3">SOLICITA TU PRESUPUESTO</h5>
-            <form action="">
-              <div class="ir-form-item py-4">
+            <form action="" class="ir-form">
+              <div class="my-4">
                 <label for="nombre">Nombre y apellido</label>
                 <input type="text" id="nombre" placeholder="Nombre" />
               </div>
-              <div class="ir-form-item py-4">
+              <div class="my-4">
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder="email@gmail.com" />
               </div>
-              <div class="ir-form-item py-4">
+              <div class="my-4">
                 <label for="empresa">Empresa</label>
                 <input type="text" id="empresa" placeholder="Empresa" />
               </div>
-              <div class="ir-form-item py-4">
+              <div class="my-4">
                 <label for="mensaje">Mensaje</label>
-                <textarea
-                  id="mensaje"
-                  cols="30"
-                  rows="10"
-                  placeholder="Tu mensaje"
-                ></textarea>
+                <textarea id="mensaje" placeholder="Tu mensaje"></textarea>
               </div>
             </form>
-            <button class="ir-boton">Enviar</button>
+            <button class="ir-boton px-4 py-1">Enviar</button>
           </div>
-          <div class="col-4">
+          <div class="col-lg-4">
             <img src="" alt="imagen contacto" />
           </div>
         </div>
