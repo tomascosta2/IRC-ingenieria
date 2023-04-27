@@ -31,7 +31,7 @@
         }
         .ir-header-wrapper {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
         }
         .ir-header a {
             cursor:pointer;
@@ -74,7 +74,9 @@
         }
 
         /*Hero*/
-
+        .ir-hero {
+            margin-top: 75px;
+        }
         .ir-boton {
             border: none;
             border-radius: 5px;
