@@ -72,7 +72,7 @@ nav {
 
 /*Hero*/
 .ir-hero {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .ir-hero-contenido {
     margin-top: 150px;
@@ -92,6 +92,10 @@ nav {
 .ir-banner {
     background-color: var(--verde-oscuro);
     border-radius: 5px;
+}
+.h1.ir-titulo {
+    font-size: 25px;
+    
 }
 
 .ir-texto.--importante {
